@@ -68,3 +68,14 @@ h1 span{
     margin: 0px;
     background-size: cover;
 }
+
+.about-title a{
+    color: #C49BBB;
+     &:hover{
+        transition: 1s ease;
+        background: #38023B;
+        color: #D1BCE3;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+}
