@@ -6,3 +6,26 @@
 body {
     color: #38023B;
 }
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color:#38023B;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+    color:#C49BBB;
+}
+
+.nav-link:hover {
+    color: #C49BBB;
+    font-size: 150%;
+}
+
+.nav-link:active {
+    color:#C49BBB !important;
+}
