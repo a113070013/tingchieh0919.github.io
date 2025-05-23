@@ -45,3 +45,13 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+/*學號顏色沒改成功*/
+h1 span{
+    color:#D1BCE3;
+}
+
+/*進度條字體顏色*/
+.progress-bar ,.progress-bar-striped , .progress-bar-animated{
+    color: #D1BCE3;
+}
