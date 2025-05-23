@@ -1,6 +1,11 @@
 .social-icons .social-icon {
     background: #38023B;
     color: #D1BCE3;
+    &:hover{
+        transition: 0.5s ease;
+        background:#D1BCE3;
+        color:#38023B;
+    }
 }
 
 body {
