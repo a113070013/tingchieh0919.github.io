@@ -17,7 +17,7 @@ body {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+.nav-item{
     color:#C49BBB;
 }
 
