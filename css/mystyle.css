@@ -22,19 +22,21 @@ body {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-.nav-item{
-    color:#C49BBB;
-}
-
+/*滑鼠碰到變色*/
 .nav-link:hover {
     color: #C49BBB;
     font-size: 150%;
+}
+
+.nav-item{
+    color:#C49BBB;
 }
 
 .nav-link:active {
     color:#C49BBB !important;
 }
 
+/*左邊背景*/
 .bg-primary {
     background-color: transparent !important;
     background-image: url(../assets/img/background\ 1.jpg);
