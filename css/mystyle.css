@@ -22,18 +22,19 @@ body {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-/*滑鼠碰到變色*/
+/*滑鼠碰到變大*/
 .nav-link:hover {
     color: #C49BBB;
     font-size: 150%;
 }
 
-.nav-item{
-    color:#C49BBB;
-}
-
 .nav-link:active {
     color:#C49BBB !important;
+}
+
+/*我要怎麼讓字亭在淺紫色而不是白色啊啊啊*/
+.navbar-nav .nav-item{
+    color:#C49BBB;
 }
 
 /*左邊背景*/
