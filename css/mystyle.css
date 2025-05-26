@@ -1,5 +1,5 @@
 :root{
-    --bs-navbar-active-color: #C49BBB !important;
+    --bs-navbar-active-color: rgba(196,155,187,1) !important;
 }
 
 .social-icons .social-icon {
