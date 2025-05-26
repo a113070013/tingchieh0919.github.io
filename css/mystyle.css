@@ -123,3 +123,49 @@ h1 span{
 #v-profile div ul li{
     margin: 20px;
 }
+
+#common{
+    background: fixed url(../assets/img/dot2.jpeg) center center;
+    background-size: cover;
+}
+
+#contact{
+    background: fixed url(../assets/img/background3.jpg) center center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+ /* 平滑滾動動畫 */
+ @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+}
+
+.art-gallery {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-bottom: 3px;
+}
+  
+.scrolling-content {
+    display: inline-block;
+    animation: scroll-left 25s linear infinite;
+}
+  
+.art-gallery img {
+    height: 200px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 8px;
+    object-fit: cover;
+    pointer-events: auto;
+}
+  
