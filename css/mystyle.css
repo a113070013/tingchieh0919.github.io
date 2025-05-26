@@ -31,6 +31,8 @@ root {
 body {
     -webkit-tap-highlight-color:#38023B;
     color: #38023B;
+    --bs-link-color: #C49BBB;
+    --bs-link-hover-color:#38023B;
   }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -152,6 +154,16 @@ h1 span{
 #common{
     background: fixed url(../assets/img/background4.JPG) center center;
     background-size: cover;
+}
+
+/*咁為什麼這裡沒效果*/
+#common p span {
+    color: #D1BCE3;
+    &:hover{
+        transition: 0.5s ease;
+        color: #38023B;
+        text-decoration: underline;
+    }
 }
 
 #contact{
