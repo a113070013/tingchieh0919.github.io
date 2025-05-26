@@ -1,3 +1,13 @@
+.navbar{
+    --bs-navbar-active-color: rgba(196,155,187,1);
+}
+.navbar-dark {
+    --bs-navbar-color:rgba(56,2,59,1);
+    --bs-navbar-hover-color: rgba(196,155,187,1);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color:rgba(196,155,187,1);
+}
+
 .social-icons .social-icon {
     background: #38023B;
     color: #D1BCE3;
