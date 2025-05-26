@@ -168,4 +168,12 @@ h1 span{
     object-fit: cover;
     pointer-events: auto;
 }
-  
+
+.list-group-item {
+    background:;
+    color: #38023B;
+}
+
+.list-group-item-action:hover {
+    background:#FAF8D4 !important;
+}
