@@ -72,9 +72,15 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     background-position: center;
 }
 
-/*學號顏色沒改成功*/
+/*學號顏色*/
 h1 span{
     color:#D1BCE3;
+}
+
+#experience .subheading {
+    color: #38023B;
+    opacity:0.6;
+    font-size:larger;
 }
 
 /*進度條字體顏色*/
