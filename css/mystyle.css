@@ -125,7 +125,7 @@ h1 span{
 }
 
 #common{
-    background: fixed url(../assets/img/dot2.jpeg) center center;
+    background: fixed url(../assets/img/dot3.jpeg) center center;
     background-size: cover;
 }
 
@@ -170,10 +170,12 @@ h1 span{
 }
 
 .list-group-item {
-    background:;
+    background:#fbf9fe;
     color: #38023B;
+    margin: 5px;
 }
 
 .list-group-item-action:hover {
     background:#FAF8D4 !important;
+    color: #38023B;
 }
