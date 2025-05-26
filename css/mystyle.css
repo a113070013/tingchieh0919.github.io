@@ -101,6 +101,19 @@ h1 span{
     position:fixed;
     float: center;
 }*/
-#dropdownMenuLink{
 
+#about .btn{
+    background: #D1BCE3;
+    color: #38023B;
+    &:hover{
+        transition: 1s ease;
+        background: #38023B;
+        color: #D1BCE3;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+}
+
+#about .btn a{
+    border-radius: 0px;
 }
