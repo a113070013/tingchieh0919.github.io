@@ -1,3 +1,7 @@
+:root{
+    --bs-navbar-active-color: #C49BBB !important;
+}
+
 .social-icons .social-icon {
     background: #38023B;
     color: #D1BCE3;
