@@ -113,3 +113,17 @@ h1 span{
         border-radius: 20px;
     }
 }
+
+#v-profile div ul{
+   min-height: 300px !important;
+   padding: 30px;
+   margin: 10px 0;
+}
+
+#v-profile div ul li{
+    margin: 20px;
+}
+
+#carouselExampleIndicators{
+
+}
