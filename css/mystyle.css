@@ -16,6 +16,10 @@ body {
     color: #38023B;
 }
 
+#page-top nav img{
+    box-shadow: 0 0 10px rgba(56,2,59,1);
+}
+
 .nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
