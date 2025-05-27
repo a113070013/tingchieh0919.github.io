@@ -108,7 +108,7 @@ h1 span{
     background-size: cover;
 }
 
-.about-title a{
+.about-title .subheading a{
     color: #C49BBB;
      &:hover{
         transition: 1s ease;
@@ -116,6 +116,17 @@ h1 span{
         color: #D1BCE3;
         text-decoration: none;
         border-radius: 20px;
+    }
+}
+
+.about-title .dropdown-item{
+    color: #38023B;
+    &:hover{
+        transition: 0.5s ease;
+        background:#38023B;
+        color:#fff;
+        border-radius: 0%;
+        text-decoration: none;
     }
 }
 
