@@ -212,10 +212,13 @@ h1 span{
    padding: 5px;
    text-align:left;
    background: #FAF8D4;
+   border: #D1BCE3 3px solid;
+   border-radius: 10px;
 }
 
 #v-profile div ul li{
     margin: 50px;
+    font-size: 20px;
 }
 
 #v-profile #photo{
