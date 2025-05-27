@@ -190,7 +190,7 @@ h1 span{
     color: #38023B;
 }
 
-/*咁為什麼這裡沒效果*/
+/*咁為什麼這裡沒效果
 #common .linkcontact  {
     color: #C49BBB;
     &:hover{
@@ -198,7 +198,7 @@ h1 span{
         color: #38023B;
         text-decoration: underline;
     }
-}
+}*/
 
 #common h2 .accordion-button{
     color: #38023B;
@@ -266,3 +266,8 @@ h1 span{
     color: #38023B;
 }
 
+#education h3 {
+    background:#FAF8D4 ;
+    padding: 5px;
+    width: 60%;
+}
