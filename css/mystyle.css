@@ -191,7 +191,7 @@ h1 span{
 }
 
 /*咁為什麼這裡沒效果*/
-#common p span {
+#common .linkcontact a {
     color: #D1BCE3;
     &:hover{
         transition: 0.5s ease;
