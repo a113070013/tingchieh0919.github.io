@@ -176,6 +176,7 @@ h1 span{
 #common{
     background: fixed url(../assets/img/background4.JPG) center center;
     background-size: cover;
+    color: #38023B;
 }
 
 /*咁為什麼這裡沒效果*/
@@ -186,6 +187,16 @@ h1 span{
         color: #38023B;
         text-decoration: underline;
     }
+}
+
+#common h2 .accordion-button{
+    color: #38023B;
+    background: #fff;
+        &:hover{
+        transition: 0.5s ease;
+        color: #38023B;
+        background: #D1BCE3;
+        }
 }
 
 #contact{
@@ -243,3 +254,4 @@ h1 span{
     background:#FAF8D4 !important;
     color: #38023B;
 }
+
