@@ -37,6 +37,14 @@ root {
         background-size: cover;
 }
 
+#about h1 span{
+    font-size:50px;
+}
+
+#about h1 {
+    padding-bottom: 30px;
+}
+
 body {
     -webkit-tap-highlight-color:#38023B;
     color: #38023B;
