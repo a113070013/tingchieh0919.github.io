@@ -32,6 +32,11 @@ root {
     }
 }
 
+#about{
+        background: fixed url(../assets/img/background4.JPG) center center;
+        background-size: cover;
+}
+
 body {
     -webkit-tap-highlight-color:#38023B;
     color: #38023B;
