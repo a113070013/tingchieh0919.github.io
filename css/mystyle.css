@@ -22,6 +22,7 @@ root {
     --bs-link-color: #C49BBB;
     --bs-link-hover-color:#38023B;
 }
+
 .social-icons .social-icon {
     background: #38023B;
     color: #D1BCE3;
@@ -143,7 +144,7 @@ h1 span{
 .about-title .btn-secondary{
     color: #38023B;
     background-color: transparent;
-    border: 2px solid #38023B;
+    border:#38023B 1px solid ;
     padding: 5px 10px;
     &:hover{
         transition: 0.5s ease;
