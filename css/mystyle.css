@@ -173,6 +173,10 @@ h1 span{
     }
 }
 
+#education .subheading{
+    padding-top: 10px;
+}
+
 #v-profile #video{
     text-align: center;
     margin: 20px 0;
