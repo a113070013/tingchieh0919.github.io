@@ -51,6 +51,10 @@ root {
     padding-bottom: 30px;
 }
 
+h2{
+    text-shadow: 2px 2px 3px rgba(196,155,187,1);
+}
+
 body {
     -webkit-tap-highlight-color:#38023B;
     color: #38023B;
