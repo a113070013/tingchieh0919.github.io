@@ -66,6 +66,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     color:#38023B;
   }
 
+h3{
+    padding-bottom: 10px;
+  }
+
 #page-top nav img{
     box-shadow: 0 0 10px rgba(56,2,59,1);
 }
