@@ -151,26 +151,27 @@ h1 span{
 }
 .about-title .btn-secondary{
     color: #38023B;
-    background-color: transparent;
+    /*background-color: transparent;
+    */
     border:#38023B 1px solid ;
     padding: 5px 10px;
+    text-decoration: none;
     &:hover{
         transition: 0.5s ease;
         background:#38023B;
         color:#fff;
         border-radius: 0%;
-        text-decoration: none;
     }
 }
 
 .about-title .dropdown-item{
     color: #38023B;
+
     &:hover{
         transition: 0.5s ease;
         background:#38023B;
         color:#fff;
         border-radius: 0%;
-        text-decoration: none;
     }
 }
 
