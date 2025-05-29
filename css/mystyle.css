@@ -326,3 +326,7 @@ h1 span{
     padding: 5px;
     width: 49%;
 }
+
+svg {
+    background: transparent;
+}
