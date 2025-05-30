@@ -330,3 +330,23 @@ h1 span{
 svg {
     background: transparent;
 }
+
+#award ul {
+    list-style: none;
+}
+
+#award ul li{
+    font-size: large;
+    margin: 10px;
+}
+
+#award ul li i{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#award ul li span{
+    color: rgb(214, 100, 100);
+    font-size: larger;
+    margin-left: 5px;
+}
