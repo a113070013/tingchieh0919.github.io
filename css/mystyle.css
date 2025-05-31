@@ -333,6 +333,7 @@ svg {
 
 #award ul {
     list-style: none;
+    padding: 0;
 }
 
 #award ul li{
