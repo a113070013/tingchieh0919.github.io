@@ -333,7 +333,12 @@ svg {
 
 #award ul {
     list-style: none;
-    padding: 0;
+    background: url(../assets/img/background\ 2.jpg)center center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+    text-align: left;
+    padding:40px;
 }
 
 #award ul li{
