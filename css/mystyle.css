@@ -1,35 +1,48 @@
 *{
-    font-family: "Noto Serif TC", serif !important;
+   font-family: "Noto Serif TC", serif !important;
+   /*font-family: "Playfair Display", serif !important;*/
 }
 
+/*
+米金色 #D4AF37 rgb(212,175,55)
+象牙白 #F8F4E3 rgb(248,244,227)
+霾灰藍 #6B7C93 rgb(107,124,147)
+午夜藍 #191970 rgb(25,25,112)
+珍珠灰 #DCDCDC rgb(220,220,220)
+鋼鐵銀 #B0B0B0 rgb(176,176,176）
+藍rgb(108,122,122) #6c7a94
+深藍rgb(51,55,55) #333747
+白rgb(252,248,248) #fcf8f5
+淺紫rgb(194,188,188) #c2bcc8
+*/
 .navbar{
-    --bs-navbar-active-color: rgba(196,155,187,1);
+    --bs-navbar-active-color: rgba(252,248,248,1);
 }
 .navbar-dark {
-    --bs-navbar-color:rgba(56,2,59,1);
-    --bs-navbar-hover-color: rgba(196,155,187,1);
-    --bs-navbar-active-color:rgba(196,155,187,1);
+    --bs-navbar-color:rgba(51,55,55,1);
+    --bs-navbar-hover-color: rgba(252,248,248,1);
+    --bs-navbar-active-color:rgba(252,248,248,1);
 }
 
 :root {
-    --bs-primary:#C49BBB;
-    --bs-secondary:#D1BCE3;
+    --bs-primary:#333747;
+    --bs-secondary:#fcf8f5;
   }
 
 root {
-    --bs-primary:#C49BBB;
-    --bs-secondary:#D1BCE3;
-    --bs-link-color: #C49BBB;
-    --bs-link-hover-color:#38023B;
+    --bs-primary:#fcf8f5;
+    --bs-secondary:#fcf8f5;
+    --bs-link-color: #fcf8f5;
+    --bs-link-hover-color:#333747;
 }
 
 .social-icons .social-icon {
-    background: #38023B;
-    color: #D1BCE3;
+    background: #333747;
+    color: #fcf8f5;
     &:hover{
         transition: 0.5s ease;
-        background:#D1BCE3;
-        color:#38023B;
+        background:#fcf8f5;
+        color:#333747;
     }
 }
 
@@ -39,12 +52,12 @@ root {
 }
 
 #about h1{
-    text-shadow: 2px 2px 3px rgba(196,155,187,1);
+    text-shadow: 2px 2px 3px rgba(108,122,122,1);
 }
 
 #about h1 span{
     font-size:50px;
-    text-shadow: 2px 2px 2px rgba(56,2,59,1);
+    text-shadow: 2px 2px 2px rgba(51,55,55,1);
 }
 
 #about h1 {
@@ -52,18 +65,18 @@ root {
 }
 
 h2{
-    text-shadow: 2px 2px 3px rgba(196,155,187,1);
+    text-shadow: 2px 2px 3px rgba(108,122,122,1);
 }
 
 body {
-    -webkit-tap-highlight-color:#38023B;
-    color: #38023B;
-    --bs-link-color: #C49BBB;
-    --bs-link-hover-color:#38023B;
+    -webkit-tap-highlight-color:#333747;
+    color: #333747;
+    --bs-link-color: #fcf8f5;
+    --bs-link-hover-color:#333747;
   }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-    color:#38023B;
+    color:#333747;
   }
 
 h3{
@@ -71,7 +84,7 @@ h3{
   }
 
 #page-top nav img{
-    box-shadow: 0 0 10px rgba(56,2,59,1);
+    box-shadow: 0 0 10px rgba(194,188,188);
 }
 
 .nav-link {
@@ -79,19 +92,19 @@ h3{
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color:#38023B;
+    color:#333747;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 /*滑鼠碰到變大*/
 .nav-link:hover {
-    color: #C49BBB;
+    color: #fcf8f5;
     font-size: 150%;
 }
 
 .nav-link:active {
-    color:#C49BBB !important;
+    color:#fcf8f5 !important;
 }
 
 /*左邊背景*/
@@ -105,34 +118,34 @@ h3{
 
 /*學號顏色*/
 h1 span{
-    color:#D1BCE3;
+    color:#fcf8f5;
 }
 
 #experience .subheading {
-    color: #38023B;
+    color: #333747;
     opacity:0.6;
     font-size:larger;
 }
 
 #education .subheading{
-    color: #38023B;
+    color: #333747;
     opacity:0.6;
     font-size:larger;
 }
 
 /*進度條字體顏色*/
 .progress-bar ,.progress-bar-striped , .progress-bar-animated{
-    color: #38023B;
+    color: #333747;
 }
 
 .progress {
     width: 50%;
-    background-color:#FAF8D4;
+    background-color:#c2bcc8;
     --bs-progress-bar-bg: #D1BCE3;
 }
 
 .about-title p{
-    background-color:#FAF8D4 !important;
+    background-color:#c2bcc8 !important;
     padding: 50px 30px;
     border-radius: 10px;
     margin: 0px;
@@ -143,34 +156,33 @@ h1 span{
     color: #C49BBB;
      &:hover{
         transition: 1s ease;
-        background: #38023B;
+        background: #333747;
         color: #D1BCE3;
         text-decoration: none;
         border-radius: 20px;
     }
 }
 .about-title .btn-secondary{
-    color: #38023B;
+    color: #333747;
     /*background-color: transparent;
     */
-    border:#38023B 1px solid ;
+    border:#333747 1px solid ;
     padding: 5px 10px;
     text-decoration: none;
     &:hover{
         transition: 0.5s ease;
-        background:#38023B;
-        color:#fff;
+        background:#333747;
+        color:#fcf8f5;
         border-radius: 0%;
     }
 }
 
 .about-title .dropdown-item{
-    color: #38023B;
-
+    color: #333747;
     &:hover{
         transition: 0.5s ease;
-        background:#38023B;
-        color:#fff;
+        background:#333747;
+        color:#fcf8f5;
         border-radius: 0%;
     }
 }
@@ -199,10 +211,10 @@ h1 span{
 
 #about .btn{
     background: #D1BCE3;
-    color: #38023B;
+    color: #333747;
     &:hover{
         transition: 1s ease;
-        background: #38023B;
+        background: #333747;
         color: #D1BCE3;
         text-decoration: none;
         border-radius: 20px;
@@ -222,7 +234,7 @@ h1 span{
 #v-profile div ul{
    padding: 5px;
    text-align:left;
-   background: #FAF8D4;
+   background: #c2bcc8;
    border: #D1BCE3 3px solid;
    border-radius: 10px;
 }
@@ -241,7 +253,7 @@ h1 span{
 #common{
     background: fixed url(../assets/img/background4.JPG) center center;
     background-size: cover;
-    color: #38023B;
+    color: #333747;
 }
 
 /*咁為什麼這裡沒效果
@@ -249,23 +261,23 @@ h1 span{
     color: #C49BBB;
     &:hover{
         transition: 0.5s ease;
-        color: #38023B;
+        color: #333747;
         text-decoration: underline;
     }
 }*/
 
 #common h2 .accordion-button{
-    color: #38023B;
-    background: #fff;
+    color: #333747;
+    background: #fcf8f5;
         &:hover{
         transition: 0.5s ease;
-        color: #38023B;
+        color: #333747;
         background: #D1BCE3;
         }
 }
 
 #contact{
-    background: fixed url(../assets/img/background3.jpg) center center;
+    background: fixed url(../assets/img/b.jpg) center center;
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -280,6 +292,101 @@ h1 span{
       transform: translateX(-50%);
     }
 }
+
+#v-profile span{
+    font-size: 16px
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2.2rem;
+    margin-top: 3rem;
+    padding: 3rem 2rem 2.5rem; /* ⬅️ padding 改大，底變厚 */
+    background: #fcf8f5;
+    border-radius: 24px;
+    box-shadow: inset 0 0 12px rgba(51,55,55,0.04);
+    position: relative;
+  }
+.project-gallery::before {
+    /* content: "✦ 我的作品展 ✦";*/
+    position: absolute;
+    top: -3.4rem; /* ⬅️ 從原本 -2.2rem 改為更高 */
+    left: 1.2rem;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.4rem;
+    color: #6c7a94;
+    background: #fcf8f5;
+    padding: 0.4rem 1.2rem;
+    border-left: 4px solid #6c7a94;
+    border-radius: 8px 0 0 0;
+    box-shadow: 2px 2px 6px rgba(51,55,55,0.05);
+    left: 50%;
+    transform: translateX(-50%);
+  
+  }
+  
+  .project-card {
+    background: #fcf8f5;
+    border: 3px dashed #6c7a94;
+    border-radius: 18px;
+    box-shadow: 0 10px 16px rgba(51,55,55.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(51,55,55,0.1);
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 1.2rem;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #6c7a94;
+    box-shadow: 2px 4px 10px rgba(51,55,55.06);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card img:hover {
+    transform: scale(1.03);
+  }
+  
+  .project-card h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+    font-family: 'Noto Serif TC', serif;
+    color: #c2bcc8;
+    position: relative;
+  }
+  
+  .project-card h4::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #6c7a94;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+  }
+  
+  .project-card p {
+    font-size: 0.95rem;
+    color: #B0B0B0;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 0.5rem;
+  }
 
 .art-gallery {
     overflow: hidden;
@@ -311,18 +418,18 @@ h1 span{
 }
 
 .list-group-item {
-    background:#fbf9fe;
-    color: #38023B;
+    background:#fcf8f5;
+    color: #333747;
     margin: 8px;
 }
 
 .list-group-item-action:hover {
-    background:#FAF8D4 !important;
-    color: #38023B;
+    background:#c2bcc8 !important;
+    color: #333747;
 }
 
 #education h3 {
-    background:#FAF8D4 ;
+    background:#c2bcc8 ;
     padding: 5px;
     width: 49%;
 }
