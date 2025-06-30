@@ -134,8 +134,8 @@ h1 span{
 
 .progress {
     width: 50%;
-    background-color:#c2bcc8;
-    --bs-progress-bar-bg: #D1BCE3;
+    background-color:#fcf8f5;
+    --bs-progress-bar-bg: #b0b0b0;
 }
 
 .about-title p{
@@ -264,7 +264,7 @@ h1 span{
         &:hover{
         transition: 0.5s ease;
         color: #333747;
-        background: #D1BCE3;
+        background: #B0B0B0;
         }
 }
 
