@@ -204,12 +204,12 @@ h1 span{
 }*/
 
 #about .btn{
-    background: #D1BCE3;
+    background: #c2bcc8;
     color: #333747;
     &:hover{
         transition: 1s ease;
         background: #333747;
-        color: #D1BCE3;
+        color: #c2bcc8;
         text-decoration: none;
         border-radius: 20px;
     }
@@ -229,7 +229,7 @@ h1 span{
    padding: 5px;
    text-align:left;
    background: #c2bcc8;
-   border: #D1BCE3 3px solid;
+   border: #c2bcc8 3px solid;
    border-radius: 10px;
 }
 
