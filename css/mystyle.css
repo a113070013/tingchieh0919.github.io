@@ -127,12 +127,6 @@ h1 span{
     font-size:larger;
 }
 
-#education .subheading{
-    color: #333747;
-    opacity:0.6;
-    font-size:larger;
-}
-
 /*進度條字體顏色*/
 .progress-bar ,.progress-bar-striped , .progress-bar-animated{
     color: #333747;
@@ -428,11 +422,7 @@ h1 span{
     color: #333747;
 }
 
-#education h3 {
-    background:#c2bcc8 ;
-    padding: 5px;
-    width: 49%;
-}
+
 
 svg {
     background: transparent;
