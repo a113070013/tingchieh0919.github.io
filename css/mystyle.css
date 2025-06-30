@@ -147,13 +147,11 @@ h1 span{
 }
 
 .about-title .subheading a{
-    color: #C49BBB;
+    color: #B0B0B0;
      &:hover{
         transition: 1s ease;
-        background: #333747;
-        color: #D1BCE3;
+        color:#333747;
         text-decoration: none;
-        border-radius: 20px;
     }
 }
 .about-title .btn-secondary{
@@ -428,7 +426,7 @@ svg {
 
 #award ul {
     list-style: none;
-    background: url(../assets/img/background4.JPG)center center;
+    background: url(../assets/img)center center;
     background-size: cover;
     height: 450px;
     line-height: 50px;
