@@ -217,6 +217,10 @@ h1 span{
     padding-top: 10px;
 }
 
+#education{
+background: fixed url(../assets/img/education.JPG)center center;
+}
+
 #v-profile #video{
     text-align: center;
     margin: 20px 0;
