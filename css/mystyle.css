@@ -140,6 +140,12 @@ h1 span{
     }
 }
 
+#experience ul li p a{
+    position: relative;
+    right: 0px;
+    font-size: 13px;
+}
+
 /*進度條字體顏色*/
 .progress-bar ,.progress-bar-striped , .progress-bar-animated{
     color: #333747;
