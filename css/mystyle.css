@@ -148,10 +148,11 @@ h1 span{
 
 .about-title .subheading a{
     color: #B0B0B0;
+    text-decoration: none;
      &:hover{
         transition: 1s ease;
-        color:#333747;
-        text-decoration: none;
+        color:#B0B0B0;
+        text-decoration: underline;
     }
 }
 .about-title .btn-secondary{
