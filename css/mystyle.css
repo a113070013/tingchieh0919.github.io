@@ -22,11 +22,6 @@
     --bs-navbar-color:rgba(51,55,55,1);
     --bs-navbar-hover-color: rgba(252,248,248,1);
     --bs-navbar-active-color:rgba(252,248,248,1);
-    &:hover{
-        transition: 0.5s ease;
-        color:rgba(252,248,248,1);
-        text-shadow: 2px 2px 8px rgb(108,122,122,1);
-    }
 }
 
 :root {
@@ -105,6 +100,7 @@ h3{
 .nav-link:hover {
     color: #fcf8f5;
     font-size: 150%;
+    text-shadow: 2px 2px 8px rgb(108,122,122,1);
 }
 
 .nav-link:active {
