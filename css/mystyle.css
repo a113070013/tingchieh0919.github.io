@@ -126,6 +126,19 @@ h1 span{
     opacity:0.6;
     font-size:larger;
 }
+#experience a{
+    color: #fcf8f5;
+    text-decoration: none;
+    background: #6c7a94;
+    padding: 10px;
+    border-radius: 20px;
+    &:hover{
+        transition: 0.5s ease;
+        color:#fcf8f5;
+        background: #c2bcc8;
+        text-decoration: none;
+    }
+}
 
 /*進度條字體顏色*/
 .progress-bar ,.progress-bar-striped , .progress-bar-animated{
