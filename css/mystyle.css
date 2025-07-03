@@ -171,7 +171,7 @@ h1 span{
     background-color:#c2bcc8 !important;
     padding: 50px 30px;
     border-radius: 10px;
-    margin: 0px;
+    margin: 0px auto;
     background-size: cover;
 }
 
@@ -253,7 +253,7 @@ background:fixed url(../assets/img/education.JPG)floralwhite;
 
 #v-profile #video{
     text-align: center;
-    margin: 20px 0;
+    margin: 20px auto;
     font-size: 24px;
 }
 
@@ -266,13 +266,13 @@ background:fixed url(../assets/img/education.JPG)floralwhite;
 }
 
 #v-profile div ul li{
-    margin: 50px;
+    margin: 50px auto;
     font-size: 18px;
 }
 
 #v-profile #photo{
     text-align: center;
-    margin: 20px 0;
+    margin: 20px auto;
     font-size: 24px;
 }
 
@@ -472,7 +472,7 @@ svg {
 
 #award ul li{
     font-size: large;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 #award ul li i{
