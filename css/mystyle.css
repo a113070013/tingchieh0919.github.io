@@ -125,7 +125,7 @@ h3{
 .bg-primary {
     background-color: transparent !important;
     background-image: url(../assets/img/background\ 1.jpg);
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
