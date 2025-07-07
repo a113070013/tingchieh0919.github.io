@@ -63,7 +63,6 @@ root {
     }
 }
 
-
 #about h1{
     text-shadow: 2px 2px 3px rgba(108,122,122,1);
 }
@@ -495,3 +494,5 @@ svg {
     font-size: larger;
     margin-left: 5px;
 }
+
+  
