@@ -28,7 +28,7 @@
             text-align: left;
 }
         #experience h3 a{
-            transition: none;
+            /* 改不動 */
         }
   }
 
@@ -63,9 +63,6 @@ root {
     }
 }
 
-#about{
-     
-}
 
 #about h1{
     text-shadow: 2px 2px 3px rgba(108,122,122,1);
@@ -128,7 +125,7 @@ h3{
 .bg-primary {
     background-color: transparent !important;
     background-image: url(../assets/img/background\ 1.jpg);
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -217,7 +214,8 @@ h1 span{
 }
 
 .text-primary {
-    color: #c2bcc8 !important;
+    color: #6c7a94 !important;
+    margin: auto;
 }
 
 /*#contact .container{
@@ -255,9 +253,14 @@ h1 span{
 }
 
 #education{
-background:fixed url(../assets/img/education.JPG)floralwhite;
+    background-color: #c2bcc8;
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png") ;
+}
+#education  .text-primary{
+    color: #333747;
 }
 
+    
 #v-profile #video{
     text-align: center;
     margin: 20px auto;
