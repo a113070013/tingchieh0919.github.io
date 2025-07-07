@@ -16,13 +16,20 @@
 淺紫rgb(194,188,188) #c2bcc8
 */
 
-
-  @media (max-width: 768px) {
-    /* 針對小螢幕的樣式 */
-    .container {
-      width: 100%;
-      padding: 10px;
-    }
+/* 響應式設計 */
+  @media screen and (max-width: 768px) {
+        #experience div{
+            margin-bottom: 10px;
+            flex-direction: column;
+            margin: auto;
+  }
+        #experience div div{
+            margin-top: 15px;
+            text-align: left;
+}
+        #experience h3 a{
+            transition: none;
+        }
   }
 
 .navbar{
