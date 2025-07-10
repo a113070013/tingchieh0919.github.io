@@ -318,6 +318,10 @@ h1 span{
     background-repeat: no-repeat;
 }
 
+#contact a {
+    margin: 20px;
+}
+
  /* 平滑滾動動畫 */
  @keyframes scroll-left {
     0% {
