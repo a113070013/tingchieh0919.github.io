@@ -165,6 +165,10 @@ h1 span{
     right: 0px;
     font-size: 13px;
 }
+#experience .no-detect{
+    pointer-events: none;
+    user-select: text;
+}
 
 /*進度條字體顏色*/
 .progress-bar ,.progress-bar-striped , .progress-bar-animated{
