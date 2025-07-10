@@ -145,6 +145,9 @@ h1 span{
     background: #6c7a94;
     padding: 10px;
     border-radius: 20px;
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
     &:hover{
         transition: 0.5s ease;
         color:#fcf8f5;
