@@ -569,3 +569,7 @@ svg {
     100% { transform: rotate(360deg); }
   }
 /* cd */
+
+#interests .card{
+    margin-top: 25px ;
+}
