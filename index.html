@@ -294,6 +294,36 @@
                             <div class="progress-bar progress-bar-striped progress-bar-animated"style="width: 90%;">90%</div>
                         </div>
 
+                        <style>
+                          .carousel {
+                            /* ... */
+                            > * {
+                              flex: 0 0 100%;
+                            }
+                          }
+                        
+                          /* 為了更好地結構化對卡片進行分組。 */
+                          .group {
+                            display: flex;
+                            gap: 20px;
+                            /* 為了創造最後和第一張卡片之間的間隙，添加右側填充。 */
+                            padding-right: 20px;
+                          }
+                        </style>
+                        <div class="carousel">
+                          <div class="group">
+                            <div class="card">A</div>
+                            <div class="card">B</div>
+                            <div class="card">C</div>
+                          </div>
+                          <!-- 添加 `aria-hidden` 來隱藏重複的卡片，使其對屏幕閱讀器不可見。 -->
+                          <div aria-hidden class="group">
+                            <div class="card">A</div>
+                            <div class="card">B</div>
+                            <div class="card">C</div>
+                          </div>
+                        </div>
+
                         <br>
                         <h5><i class="fa-solid fa-camera"></i>  攝影</h5>
                         <div class="gray">我喜歡用好看的照片紀錄值得收藏的生活，能成為日後回憶的載體。
