@@ -30,6 +30,10 @@
         #experience h3 a{
             /* 改不動 */
         }
+        
+        #interests .card img{
+           height: auto;
+        }
   }
 
 .navbar{
