@@ -577,6 +577,9 @@ svg {
 #interests .card{
     margin-top: 25px ;
 }
+#interests .card-group{
+    width: 75%;
+}
 
 /* click me */
 
