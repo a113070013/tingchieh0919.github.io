@@ -654,3 +654,48 @@ svg {
         transform: translateY(0px);
     }
 }
+
+
+.m-gallery {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-bottom: 3px;
+}
+  
+.scrolling-content {
+    display: inline-block;
+    animation: scroll-left 25s linear infinite;
+    &:hover {
+        animation-play-state: paused;
+      }
+}
+  
+.m-gallery img {
+    height: 300px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 8px;
+    object-fit: cover;
+    pointer-events: auto;
+}
+
+/* 標題字 */
+.memories-gallery{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+
+#memories .carousel {
+    /* ... */
+    > * {
+      flex: 0 0 100%;
+    }
+    &:hover .group {
+        animation-play-state: paused;
+      }
+  }
